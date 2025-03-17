@@ -26,10 +26,11 @@ public class ex3 {
         }
 
         if (valorA == valorB) {
-            int soma = valorA + valorB; // Soma os valores
-            System.out.println("Os valores são iguais. A soma é: " + soma);
+            int valorC = valorA + valorB;
+            System.out.println("Os valores são iguais. A soma é: " + valorC);
         } else {
-            System.out.println("Os valores são diferentes. Nenhuma soma foi realizada.");
+            int valorC = valorA * valorB;
+            System.out.println("Os valores são diferentes. A multiplicação é: " + valorC);
         }
 
         scanner.close();
